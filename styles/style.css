@@ -425,7 +425,7 @@ text-decoration-line: underline;
     width: 730px;
     height: 104px;
     margin: 0 auto;
-    margin-bottom: 10px;
+    padding-top: 50px;
  }
 
  .support-section-title h1{
@@ -449,7 +449,7 @@ text-decoration-line: underline;
  }  
 
  .support-submit-area{
-    padding-top: 20px;
+    padding-top: 50px;
     justify-content: center;
     display: flex;
     align-items: center;
@@ -469,5 +469,42 @@ text-decoration-line: underline;
   font-size: 15px;
   width: 120px;
   height: 57px;
+  cursor: pointer;
   padding: 17px 20px 17px 20px;
 }
+
+ /* support-section-end-here */
+
+
+ /* footer-section-start-here */
+
+
+ .social-part{
+    border: 2px solid red;
+     width: 1440px;
+     height: 100px;
+     margin: 0 auto;
+     margin-bottom: 100px;
+ }
+
+
+ .social-parent-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    width: 1140px;
+    height: 36px;
+    margin: 0 auto;
+    margin-top: 25px;
+ }
+
+ .social-parent-div .title{
+   color: rgb(13, 19, 33);
+   font-size: 15px;
+   font-weight: 600;
+   line-height: 23px;
+   letter-spacing: 0%;
+   text-align: center;
+   width: 600px;
+   height: 23px;
+ }
