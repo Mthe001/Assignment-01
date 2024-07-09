@@ -72,6 +72,14 @@ text-align: center;
    background: rgb(13, 19, 33);
    margin-top: 20px;
    padding: 21px 24px 21px 24px;
+   cursor: pointer;
+   transition: 0.9s;
+}
+
+.parent-section .banner-btn:hover{
+   background: rgb(255, 255, 255);
+   color: rgb(13, 19, 33);
+   border: 1px solid rgb(13, 19, 33);
 }
 
 /* header-part end here....... */
@@ -171,8 +179,10 @@ text-align: center;
 .tite-section-3 .btn{
      box-sizing: border-box;
      border: 1px solid rgb(13, 19, 33);
-     opacity: 0.7;
+     opacity: 1;
      margin-top: 20px;
+     border-radius: 5px;
+     cursor: pointer;
      width: 150px;
      height: 48px;
      margin-right: 45px;
@@ -218,7 +228,9 @@ text-align: center;
       width: 1140px;
       height: 777px;
       margin: 0 auto;
-      border: 2px solid salmon;
+      box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+      margin-top: 50px;
+      margin-bottom: 90px;
    }
 
    .titlee{
@@ -227,13 +239,235 @@ text-align: center;
     width: 852px;
    }
 
-   .jhankar-vaiya{
+   .video-part{
     width: 1076px;
     height: 550px;
     border-radius: 16px;
-    border: 1px solid rgb(255, 0, 0);
-    margin: 0 auto;
+    margin: 0 auto; 
     margin-top: 50px;
 
-   }
+  }
+
+
+   /* current-target-section  start here*/
+  
    
+.current-target-section{
+    width: 1200px;
+    height: 460px;
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 40px;
+    margin-bottom: 100px;
+ 
+}
+
+
+.card{
+    width: 90%;
+    height: 299px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 24px;
+    width: 1200px;
+}
+
+
+.parent-card{
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+      
+}
+
+.card .html-card{
+ width: 364px;
+ height: 287px;
+ border-radius: 16px;
+ padding: 40px 40px 40px 40px;
+}
+
+.card .css-card{
+ width: 364px;
+ height: 287px;
+ border-radius: 16px;
+ background: rgba(0, 76, 232, 0.05);
+  padding: 40px 40px 40px 40px;
+}
+.card .js-card{
+ width: 364px;
+ height: 287px;
+ border-radius: 16px;
+ background: rgba(255, 223, 0, 0.05);
+ padding: 40px 40px 40px 40px;
+}
+
+.html-card h3{
+padding-top: 15px;   
+color: rgb(13, 19, 33);
+font-size: 24px;
+font-weight: 800;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.html-card p{
+padding-top: 15px;   
+color: rgb(13, 19, 33);
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+opacity: 0.7;
+}
+
+.html-card a{
+color: rgb(13, 19, 33);
+font-size: 17px;
+font-weight: 700;
+letter-spacing: 0%;
+text-align: left;
+text-decoration-line: underline;
+}
+
+.css-card h3{
+ padding-top: 15px;   
+color: rgb(13, 19, 33);
+font-size: 24px;
+font-weight: 800;
+letter-spacing: 0%;
+text-align: left;
+}
+.css-card p{
+padding-top: 15px;   
+color: rgb(13, 19, 33);
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+opacity: 0.7;
+}
+
+
+.css-card a{
+color: rgb(13, 19, 33);
+font-size: 17px;
+font-weight: 700;
+letter-spacing: 0%;
+text-align: left;
+text-decoration-line: underline;
+}
+
+
+
+
+.js-card h3{
+padding-top: 15px;   
+color: rgb(13, 19, 33);
+font-size: 24px;
+font-weight: 800;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.js-card p{
+padding-top: 15px;   
+color: rgb(13, 19, 33);
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+opacity: 0.7;
+}
+
+.js-card a{
+color: rgb(13, 19, 33);
+font-size: 17px;
+font-weight: 700;
+letter-spacing: 0%;
+text-align: left;
+text-decoration-line: underline;
+}
+
+/* current-target-section  end here */
+
+
+
+
+  /* support-section-start here */
+
+ .support-section{
+      margin: 0 auto;
+      width: 1140px;
+      height: 313px;
+      margin-bottom: 100px;
+      background-image: url(../assets/handshake.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      display: flex;
+      flex-direction: column;
+ } 
+
+
+ .support-section-title{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 730px;
+    height: 104px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+ }
+
+ .support-section-title h1{
+  color: rgb(255, 255, 255);
+  font-family: Azeret Mono; 
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: center;
+ }
+
+ .support-section-title p{
+  color: rgb(255, 255, 255);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+  opacity: 0.7;
+ }  
+
+ .support-submit-area{
+    padding-top: 20px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+ }
+ .support-submit-area input{
+    height: 100%;
+    width: 548px;
+    border: none;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    padding: 19px 20px 19px 20px;
+ }
+
+ .support-submit-area .submit-btn{
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+  font-size: 15px;
+  width: 120px;
+  height: 57px;
+  padding: 17px 20px 17px 20px;
+}
