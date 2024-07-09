@@ -8,7 +8,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Azeret Mono";
+    font-family: 'Azeret Mono', monospace;
 }
 
 /* header part start here..... */
@@ -75,17 +75,6 @@ text-align: center;
 }
 
 /* header-part end here....... */
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -220,3 +209,31 @@ text-align: center;
     padding: 48px 48px 48px 48px;
     margin-top: 50px;
 }
+
+
+   /* My inspiration-part*/
+
+
+   .inspiration-part{
+      width: 1140px;
+      height: 777px;
+      margin: 0 auto;
+      border: 2px solid salmon;
+   }
+
+   .titlee{
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 852px;
+   }
+
+   .jhankar-vaiya{
+    width: 1076px;
+    height: 550px;
+    border-radius: 16px;
+    border: 1px solid rgb(255, 0, 0);
+    margin: 0 auto;
+    margin-top: 50px;
+
+   }
+   
