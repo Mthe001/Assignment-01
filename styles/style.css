@@ -9,9 +9,11 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Azeret Mono', monospace;
+    scroll-behavior: smooth;
 }
 
 /* header part start here..... */
+
 
 #banner{
     top: 131px;
@@ -66,6 +68,7 @@ text-align: center;
 }
 
 .parent-section .banner-btn{
+   text-decoration: none; 
    font-size: 25px;
    color:rgb(255, 255, 255);
    border-radius: 8px;
