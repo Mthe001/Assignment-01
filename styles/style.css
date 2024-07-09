@@ -1,6 +1,7 @@
-/* import font family Azeret Mono*/
+/* import font family */
 
-@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
 
 /* universal-tag */
 
@@ -8,7 +9,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Azeret Mono', monospace;
+    font-family: "Inter", sans-serif;
     scroll-behavior: smooth;
 }
 
@@ -16,7 +17,6 @@
 
 
 #banner{
-    top: 131px;
     width: 1440px;
     height: 652px;
     margin: 0 auto;
@@ -250,7 +250,7 @@ text-align: center;
     margin-top: 50px;
 
   }
-
+ /* my inspiration-ends-here */
 
    /* current-target-section  start here*/
   
@@ -367,8 +367,6 @@ text-decoration-line: underline;
 }
 
 
-
-
 .js-card h3{
 padding-top: 15px;   
 color: rgb(13, 19, 33);
@@ -433,7 +431,6 @@ text-decoration-line: underline;
 
  .support-section-title h1{
   color: rgb(255, 255, 255);
-  font-family: Azeret Mono; 
   font-size: 32px;
   font-weight: 700;
   line-height: 36px;
@@ -443,12 +440,11 @@ text-decoration-line: underline;
 
  .support-section-title p{
   color: rgb(255, 255, 255);
-  font-family: Azeret Mono;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 400;
   line-height: 26px;
   text-align: center;
-  opacity: 0.7;
+  opacity: 0.9;
  }  
 
  .support-submit-area{
