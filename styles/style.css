@@ -11,12 +11,19 @@
     box-sizing: border-box;
     font-family: "Inter", sans-serif;
     scroll-behavior: smooth;
+
 }
 
 /* header part start here..... */
 
 
+header{
+    height: 800px;
+}
+
+
 #banner{
+    top: 120px;
     width: 1440px;
     height: 652px;
     margin: 0 auto;
@@ -86,8 +93,6 @@ text-align: center;
 }
 
 /* header-part end here....... */
-
-
 
 
 
@@ -193,8 +198,22 @@ text-align: center;
      color: rgb(13, 19, 33);
      font-size: 15px;
      font-weight: 600;
+     text-align: center;
+     text-decoration: none;
+     transition: 0.9s;
 
 }
+
+.tite-section-3 .btn:hover{
+    background-color: rgb(120, 127, 134);
+    color: rgb(0, 0, 0);
+}
+
+
+
+
+
+
 
 /* middle-section-of why-web-development-part */
 
@@ -399,6 +418,62 @@ text-decoration-line: underline;
 /* current-target-section  end here */
 
 
+/* next-Target */
+
+.next-Target{
+  width: 1140px;
+  height: 866px;
+  margin: 0 auto;
+  margin-bottom: 120px;
+}
+
+
+.next-card{
+    height: 670px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.next-parent-card{
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 350px;
+    padding: 40px 40px 40px 40px;
+}
+
+.btn-container{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+}
+
+.text-container h3{
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800; 
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.text-container p{
+color: rgb(13, 19, 33);
+font-size: 17px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+
 
 
   /* support-section-start here */
@@ -408,6 +483,7 @@ text-decoration-line: underline;
       width: 1140px;
       height: 313px;
       margin-bottom: 100px;
+      border-radius: 17px;
       background-image: url(../assets/handshake.jpg);
       background-repeat: no-repeat;
       background-position: center;
@@ -490,7 +566,8 @@ text-decoration-line: underline;
  .social-parent-div{
     display: flex;
     align-items: center;
-    justify-content: space-between; 
+    justify-content: center;
+    gap: 390px; 
     width: 1140px;
     height: 36px;
     margin: 0 auto;
